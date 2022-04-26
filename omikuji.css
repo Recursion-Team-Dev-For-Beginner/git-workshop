@@ -1,0 +1,51 @@
+body {
+  font-family: serif;
+  color: red;
+  background: linear-gradient(to bottom right, rgba(237, 208, 82, 0.744), pink);
+
+  display: flex;
+  justify-content: center;
+}
+.flex-center {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.justify-content-center {
+  display: flex;
+  justify-content: center;
+}
+
+.border {
+  border-bottom: solid 3px pink;
+  width: 90%;
+}
+
+.main {
+  /*この中にそれぞれのdivが入る*/
+  width: 40%;
+  height: 90%;
+  padding-top: 5%;
+  padding-bottom: 5%;
+  background-color: white;
+
+  border: solid 3px rgba(255, 68, 0, 0.626);
+  outline: solid 8px red;
+  outline-offset: 1px;
+  margin: 8px;
+}
+
+.img-div {
+  height: 25%;
+}
+.comment-div {
+}
+.lucky-language {
+}
+.lucky-dbname {
+}
+.lucky-edit {
+}
+.omikuji-button {
+}
