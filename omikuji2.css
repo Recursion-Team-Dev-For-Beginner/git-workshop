@@ -1,0 +1,58 @@
+body {
+  font-family: serif;
+  color: crimson;
+  background: linear-gradient(to bottom right, rgba(237, 208, 82, 0.744), pink);
+  font-size: 0.8em;
+  display: flex;
+  justify-content: center;
+}
+
+h1 {
+  font-size: 4em;
+  margin: 2px;
+}
+
+.flex-center {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.border {
+  border-bottom: solid 2px lightpink;
+  width: 95%;
+}
+
+.text {
+  margin: 0;
+  margin-bottom: 1em;
+}
+
+.text-area {
+  padding: 12px;
+}
+
+.main {
+  /*この中にそれぞれのdivが入る*/
+  max-width: 16em;
+  background-color: white;
+
+  border: solid 1.5px crimson;
+  outline: solid 4px red;
+  outline-offset: 1px;
+  margin: 24px;
+}
+
+.img-div {
+  height: 25%;
+}
+
+.omikuji-button {
+  color: white;
+  background-color: crimson;
+  border: none;
+  border-radius: 30px;
+  padding: 8px;
+  margin: 8px;
+  font-size: 0.8em;
+}

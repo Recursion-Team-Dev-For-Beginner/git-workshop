@@ -1,1 +1,41 @@
+body {
+  min-height: 100vh;
+  font-family: serif;
+  color: crimson;
+  background: linear-gradient(to bottom right, rgba(237, 208, 82, 0.744), pink);
+}
 
+.title {
+  margin-top: 4em;
+  margin-bottom: 0;
+}
+
+.flex-center {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.list {
+  display: flex;
+}
+
+.divider {
+  border-right: solid 1px crimson;
+  padding-right: 8px;
+  margin-right: 8px;
+}
+
+.omikuji-button {
+  color: white;
+  background-color: crimson;
+  border: none;
+  border-radius: 30px;
+  padding: 8px 12px;
+  margin: 40px;
+  font-size: 0.9em;
+}
+
+.text {
+  font-size: 0.7em;
+}
