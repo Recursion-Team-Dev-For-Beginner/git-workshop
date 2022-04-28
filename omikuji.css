@@ -1,11 +1,15 @@
 body {
   font-family: serif;
-  color: rgb(214, 28, 28);
+  color: crimson;
   background: linear-gradient(to bottom right, rgba(237, 208, 82, 0.744), pink);
-  font-size: 1.5em;
-
+  font-size: 0.8em;
   display: flex;
   justify-content: center;
+}
+
+h1 {
+  font-size: 4em;
+  margin: 2px;
 }
 
 .flex-center {
@@ -14,56 +18,37 @@ body {
   align-items: center;
 }
 
-.justify-content-center {
-  display: flex;
-  justify-content: center;
-}
-
 .border {
-  border-bottom: solid 3px pink;
-  width: 90%;
+  border-bottom: solid 2px lightpink;
+  width: 95%;
 }
 
-.padding {
-  padding: 1em;
+.text {
+  margin: 0;
+  margin-bottom: 1em;
 }
 
-.line-height-zero {
-  line-height: 0;
+.text-area {
+  padding: 12px;
 }
 
 .main {
   /*この中にそれぞれのdivが入る*/
-  max-width: 15em;
+  max-width: 16em;
   background-color: white;
 
-  border: solid 3px rgba(255, 68, 0, 0.626);
-  outline: solid 8px red;
+  border: solid 1.5px crimson;
+  outline: solid 4px red;
   outline-offset: 1px;
-  margin: 1.5em;
+  margin: 24px;
 }
-.img-div {
-}
-.comment-div {
-}
-.lucky-language {
-}
-.lucky-dbname {
-}
-.lucky-edit {
-}
+
 .omikuji-button {
-  font-family: serif;
-  display: block;
-  padding: 0.8em 2em;
-  border-radius: 3em;
-  color: #fff;
-  background-color: red;
-  font-family: "Lato", sans-serif;
-  font-weight: 700;
-  text-align: center;
-  text-decoration: none;
-}
-.test {
-  background-color: blue;
+  color: white;
+  background-color: crimson;
+  border: none;
+  border-radius: 30px;
+  padding: 8px;
+  margin: 8px;
+  font-size: 0.8em;
 }
