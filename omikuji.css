@@ -1,12 +1,8 @@
 body {
   font-family: serif;
-  /*background: linear-gradient(to bottom right, rgba(237, 208, 82, 0.744), pink)
-    0 / cover;
-  background-size: cover;*/
-
-  background: black 0 / cover;
+  background: linear-gradient(to right, rgba(237, 208, 82, 0.744), pink) 0 /
+    cover;
   background-size: cover;
-
   font-size: 0.8em;
   display: flex;
   justify-content: center;
