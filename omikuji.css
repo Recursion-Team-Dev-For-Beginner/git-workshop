@@ -1,7 +1,12 @@
 body {
   font-family: serif;
-  color: crimson;
-  background: linear-gradient(to bottom right, rgba(237, 208, 82, 0.744), pink);
+  /*background: linear-gradient(to bottom right, rgba(237, 208, 82, 0.744), pink)
+    0 / cover;
+  background-size: cover;*/
+
+  background: black 0 / cover;
+  background-size: cover;
+
   font-size: 0.8em;
   display: flex;
   justify-content: center;
@@ -35,8 +40,8 @@ h1 {
 .main {
   /*この中にそれぞれのdivが入る*/
   max-width: 16em;
+  color: crimson;
   background-color: white;
-
   border: solid 1.5px crimson;
   outline: solid 4px red;
   outline-offset: 1px;
@@ -52,4 +57,18 @@ h1 {
   padding: 8px;
   margin: 8px;
   font-size: 0.8em;
+}
+
+.background {
+  position: absolute;
+  display: block;
+  top: 0;
+  left: 0;
+  z-index: -1;
+}
+.parent {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
 }
