@@ -27,6 +27,7 @@ body {
 }
 
 .omikuji-button {
+  text-decoration: none;
   color: white;
   background-color: crimson;
   border: none;

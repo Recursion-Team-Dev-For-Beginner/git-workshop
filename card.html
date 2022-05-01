@@ -8,8 +8,10 @@
     <title>おみくじ結果</title>
   </head>
 
-  <body>
-    <div class="main flex-center">
+  <body id="omikuji-body">
+  <div></div>
+  <div class="parent">
+    <div class="main flex-center container">
       <div class="flex-center text-area">ソフトウェア開発みくじ</div>
       <div class="border"></div>
 
@@ -28,22 +30,22 @@
 
       <div class="flex-center">
         <p>☆ラッキー言語☆</p>
-        <p class="text">Java</p>
+        <p  id="language" class="text">Java</p>
       </div>
 
       <div class="border"></div>
 
       <div class="flex-center">
         <p>☆ラッキーデータベース☆</p>
-        <p class="text">SQLite</p>
+        <p  id="database" class="text">SQLite</p>
       </div>
 
       <div class="border"></div>
 
       <div class="flex-center">
         <p>☆ラッキーエディタ☆</p>
-        <p class="text">TeraPad.</p>
-        <button class="omikuji-button">もう一度おみくじをひく</button>
+        <p id="editor" class="text">TeraPad.</p>
+        <a href="card.html" class="omikuji-button">もう一度おみくじをひく</a>
       </div>
     </div>
     <script type="text/javascript" src="index.js"></script>
