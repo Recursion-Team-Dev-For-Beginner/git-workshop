@@ -7,8 +7,16 @@ const srcArray = [
   "https://2.bp.blogspot.com/-RxPE2LMSqpA/VCOJsx1yyaI/AAAAAAAAm1U/KCs9MCO3nXw/s800/hansei_koukai_woman.png",
   "https://4.bp.blogspot.com/-O6jzGm6q7ek/Wp94Z1gZwvI/AAAAAAABKtI/mfCgerRAaB4YuHBl-OdNLKKN6nqI7MYFACLcBGAs/s800/pose_taiiku_suwari_back_man.png",
 ];
-let languageArray = ["C++", "C#", "Go", "JavaScript", "Java", "Python"];
-let databaseArray = [
+const commentArray = [
+  "リファクタリングが成功してProgrammingが爆速に!!サクサク動いて気持ちいいーー!!",
+  "新しいPCをゲットし作業効率が爆上がり!!",
+  "難しい案件をクリアすることができた！自分に実力がついてきていることを実感し、自信を持つことができるでしょう！",
+  "悩んでたエラーが解決してとてもいい気分！",
+  "新しいプロジェクトにアサインされるも、上司がきつい・・・",
+  "職場で取り返しの付かないミス連発! おまけにPCの調子も悪い・・・",
+];
+const languageArray = ["C++", "C#", "Go", "JavaScript", "Java", "Python"];
+const databaseArray = [
   "PostgreSQL",
   "MySQL",
   "Oracle Database",
@@ -16,7 +24,14 @@ let databaseArray = [
   "SQLite",
   "MariaDB",
 ];
-let editorArray = ["VScode", "Atom", "Emacs", "Vim", "Sublime Text 3", "xyzzy"];
+const editorArray = [
+  "VScode",
+  "Atom",
+  "Emacs",
+  "Vim",
+  "Sublime Text 3",
+  "xyzzy",
+];
 
 //おみくじのインデックスを決めます
 function selectRandomIndex(arr) {
@@ -30,6 +45,9 @@ omikujiImg.src = srcArray[randomIndex];
 
 let h1Omikuji = document.getElementById("h1-omikuji");
 h1Omikuji.innerHTML = omikujiArray[randomIndex];
+
+let omikujiComment = document.getElementById("comment");
+omikujiComment.innerHTML = commentArray[randomIndex];
 
 let language = document.getElementById("language");
 language.innerHTML = languageArray[randomIndex];
